@@ -1,7 +1,7 @@
 'use client';
 
 import {useEffect, useRef, useState} from 'react'
-import {cn, getSubjectColor} from "@/lib/utils";
+import {cn,configureAssistant, getSubjectColor} from "@/lib/utils";
 import {vapi} from "@/lib/vapi.sdk";
 import Image from "next/image";
 import Lottie, {LottieRefCurrentProps} from "lottie-react";
@@ -149,7 +149,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
                 <div className="transcript-message no-scrollbar">
                     {messages.map((message, index) => {
                         if(message.role === 'assistant') {
-                            return (
+                          return (
                                 <p key={index} className="max-sm:text-sm">
                                     {
                                         name
