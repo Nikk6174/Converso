@@ -8,12 +8,12 @@ interface CompanionCardProps {
     topic: string;
     subject: string;
     duration: number;
-    colour: string;
+    color: string;
 }
 
-const CompanionCard = ({id, name, topic, subject, duration, colour}: CompanionCardProps) => {
+const CompanionCard = ({id, name, topic, subject, duration, color}: CompanionCardProps) => {
   return (
-    <article className='companion-card' style={{backgroundColor: colour}}>
+    <article className='companion-card' style={{backgroundColor: color}}>
         <div className="flex justify-between items-center">
             <div className="subject-badge">{subject}</div>
             <button className="companion-bookmark">
