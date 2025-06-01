@@ -378,4 +378,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 ---
 
 **Thank you for checking out Converso!**
-Any questions or feedback? Please open an issue or reach out to `hello@your-email.com`.
+Any questions or feedback? Please open an issue or reach out to `nikhil.6174s@gmail.com`.
