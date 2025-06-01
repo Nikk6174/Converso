@@ -4,7 +4,7 @@ import { cn, getSubjectColor } from "@/lib/utils"
 import {
     Table,
     TableBody,
-    TableCaption,
+    // TableCaption,
     TableCell,
     TableHead,
     TableHeader,
@@ -19,7 +19,7 @@ interface CompanionListProps {
     classNames?: string;
 }
 
-const CompanionList = ({ title, companions, classNames }: CompanionListProps) => {
+const CompanionList = ({  companions, classNames }: CompanionListProps) => {
     return (
         <article className={cn('companion-list', classNames)}>
             <h2 className='font-bold text-3xl'>recent sesssions</h2>
@@ -35,7 +35,7 @@ const CompanionList = ({ title, companions, classNames }: CompanionListProps) =>
                     </TableRow>
                 </TableHeader>
                 <TableBody>
-                    {companions?.map(({ id, name, topic, subject, duration, colour }) => (
+                    {companions?.map(({ id, name, topic, subject, duration,  }) => (
                         <TableRow key={id}>
                             <TableCell>
                                 <Link href={`/companions/${id}`}>

@@ -3,9 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import NavItems from './NavItems';
 
-import { type Metadata } from 'next'
+// import { type Metadata } from 'next'
 import {
-    ClerkProvider,
+    // ClerkProvider,
     SignInButton,
     SignedIn,
     SignedOut,
