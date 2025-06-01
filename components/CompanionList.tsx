@@ -22,7 +22,7 @@ interface CompanionListProps {
 const CompanionList = ({  companions, classNames }: CompanionListProps) => {
     return (
         <article className={cn('companion-list', classNames)}>
-            <h2 className='font-bold text-3xl'>recent sesssions</h2>
+            <h2 className='font-bold text-3xl'>Recent Sessions</h2>
 
             <Table>
 
